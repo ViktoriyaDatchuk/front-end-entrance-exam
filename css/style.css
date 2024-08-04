@@ -346,3 +346,14 @@ main {
 .downloadButton:hover {
   background-color: #149063;
 }
+
+@keyframes text-animation {
+  to {
+    color: red;
+  }
+}
+
+.animation {
+  animation-name: text-animation;
+  animation-duration: 0.3s;
+}
